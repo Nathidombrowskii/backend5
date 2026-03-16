@@ -8,5 +8,10 @@ console.log(`Horas iniciais: ${horasTrabalhadas}h`);
 horasTrabalhadas++;
 console.log('Após hora extra (horasTrabalhadas++); ${horasTrabalhadas}h');
 
+//No dia seguinte ele precisou sair uma hora mais cedo para ir ao médico
 horasTrabalhadas--;
-console.log('Após saida antecipada: ${horasTrabalhadas}h');
+console.log('Após saida antecipada: (horasTrabalhadas--); ${horasTrabalhadas}h');
+
+//Calculo final
+let taxaSistema = 15;
+let pagamentoTotal = (horasTrabalhadas * valorPorHora) - taxaSistema
