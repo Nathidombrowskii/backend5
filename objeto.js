@@ -10,7 +10,12 @@ console.log("Material escolhido:", bancoAutomotivo.material);
 bancoAutomotivo.concluido = true;
 console.log(bancoAutomotivo);
 
-const lojaCosmético = {
-    material: "Cosméticos"
-    
+const papelaria = {
+    caneta: "Vermelha",
+    papel: "Colorido",
+    lapis: "12 cores", 
+    caderno: "48 páginas",
+    mochila: "preto"    
 }
+
+console.log("O material escolhido da papelaria, é uma caixa lápis", papelaria.lapis);
